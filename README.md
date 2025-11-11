@@ -21,3 +21,8 @@ Contributions are licensed.
 
 
 ***Fork***
+ssh-keygen -t rsa -b 4096 -C "<tu dirección de correo electrónico>"
+
+cd ~/.ssh
+
+eval "$(ssh-agent -s)"
